@@ -1,0 +1,7 @@
+void Colisiones(){
+//if(obtaculos){
+
+//}
+
+
+}
