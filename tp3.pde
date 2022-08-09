@@ -2,6 +2,7 @@
 //tp3
 PImage fondo, fondo_2, fondo_3;
 int segundo;
+int estado;
 int posXPJglobal, posYPJglobal;
 int tam;
 int pantalla=0;
@@ -13,7 +14,8 @@ int[] posX ;
 int[] posY ;
 void setup() {
   size(800, 800);
-  segundo=0;   
+  segundo=0;
+  estado=0;
   posX = new int [CantidadDeObstaculos];
   posY = new int [CantidadDeObstaculos];
   for (int i = 0; i < CantidadDeObstaculos; i++ ) {
