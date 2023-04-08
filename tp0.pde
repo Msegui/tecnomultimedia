@@ -33,6 +33,4 @@ void draw(){
   triangle(635,278,640,296,650,280);
   triangle(650,280,658,299,666,282);
   triangle(666,282,672,300,681,283);
-  //
-  println(mouseX + "," + mouseY);
 }
