@@ -63,6 +63,11 @@ class Juego {
 
       background(255)
     }
+    if( this.estado == "Ganaste"){
+      stroke(0,255,0)
+      fill(0,255,255)
+      text("¡¡¡ Ganaste !!!",width/2, height/2)
+    }
   }
 
   keyPressed() {
